@@ -72,7 +72,7 @@ class HelpPage extends Component {
                   most popular Portuguese words.
                 </p>
                 <p>
-                  <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>Email</a>
+                  <a href={`mailto:${process.env.REACT_APP_EMAIL}`}> Email</a>{" "}
                   me for questions and issues.
                 </p>
                 <p>
