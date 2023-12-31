@@ -265,7 +265,9 @@ class MainGame extends React.Component {
     // Here we will call the Cloud function for firebase
     const functions = getFunctions();
 
-    const helloPlingo = httpsCallable(functions, "helloPlingo");
+    const helloPlingo = httpsCallable(functions, "helloPlingo", {
+      limitedUseAppCheckTokens: true,
+    });
     return await helloPlingo({ str: inputWord })
       .then((result) => {
         // Read result of the Cloud Function.

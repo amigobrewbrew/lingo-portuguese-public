@@ -1,6 +1,6 @@
 # Setup
 
-For firebase hosting, configure your project API keys for src/firebase.js and in .env.local file or disable firebase all together.
+For firebase hosting, configure your project API keys for src/firebase.js and in .env.local file (remove .example from filename) or disable firebase all together.
 
 Use "npm install", "npm run build" & "npm run start" before deploying react app to azure/firebase/hosting
 
