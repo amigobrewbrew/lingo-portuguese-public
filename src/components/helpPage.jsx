@@ -72,11 +72,14 @@ class HelpPage extends Component {
                   most popular Portuguese words.
                 </p>
                 <p>
-                  Email{" "}
-                  <a href="mailto:amigobrewbrew@gmail.com">
-                    amigobrewbrew@gmail.com
-                  </a>{" "}
-                  for questions and issues.
+                  <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>Email</a>
+                  me for questions and issues.
+                </p>
+                <p>
+                  The front-end code can be found here:{" "}
+                  <a href="https://github.com/amigobrewbrew/lingo-portuguese-public">
+                    https://github.com/amigobrewbrew/lingo-portuguese-public
+                  </a>
                 </p>
                 <p>Enjoy!</p>
               </Box>

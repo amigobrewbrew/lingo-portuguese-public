@@ -6,7 +6,6 @@ import HelpPage from "./components/helpPage";
 import MainGame from "./components/mainGame";
 import TopScores from "./components/topScores";
 import Signup from "./components/Signup";
-
 import { AuthProvider } from "./contexts/AuthContext";
 import Dashboard from "./components/Dashboard";
 import Login from "./components/Login";
